@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-28)
+## Unreleased (2025-08-03)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`5c0a9df`](https://github.com/stdlib-js/stdlib/commit/5c0a9df7ce9e03e36ea29d89b8f2852a4b0c3e3c) - **style:** remove empty lines [(#7795)](https://github.com/stdlib-js/stdlib/pull/7795) _(by stdlib-bot)_
 -   [`a4ce77e`](https://github.com/stdlib-js/stdlib/commit/a4ce77efe910c9398e75b767fb81e786a3a04cc0) - **test:** pass in opts to skip if addon is not available _(by Philipp Burckhardt)_
 -   [`fd9994f`](https://github.com/stdlib-js/stdlib/commit/fd9994fd26cb5d2e69203bae3afdb89ec278d11b) - **feat:** add C implementation for `@stdlib/stats-base/dists/rayleigh/mgf` [(#4298)](https://github.com/stdlib-js/stdlib/pull/4298) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 
