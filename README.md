@@ -69,13 +69,18 @@ where `sigma > 0` is the scale parameter.
 ## Usage
 
 ```javascript
+import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-mgf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-rayleigh-mgf/tags). For example,
+
+```javascript
 import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-mgf@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-mgf@v0.3.0-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-mgf@esm/index.mjs';
 ```
 
 #### mgf( t, sigma )
@@ -151,7 +156,7 @@ y = myMGF( 0.5 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-mgf@v0.3.0-esm/index.mjs';
+import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-mgf@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
